@@ -82,7 +82,7 @@ const App = () => {
   return (
     <div className="app-container">
       <div className="header">
-        <img src="/hero-image.jpg" />
+        <img src="/hero-image.png" />
         <h1 className="title">My Recipe App</h1>
       </div>
       <div className="tabs">
