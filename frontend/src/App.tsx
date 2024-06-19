@@ -108,8 +108,9 @@ const App = () => {
               placeholder="Enter a search term"
               value={searchTerm}
               onChange={(event) => setSearchTerm(event.target.value)}
+              className="search-submit-input"
             />
-            <button type="submit">
+            <button type="submit" className="search-submit-button">
               <AiOutlineSearch size={40} />
             </button>
           </form>
